@@ -2,6 +2,8 @@
 
 This is an example ecommerce store to show how NextJS can be used to build a headless front-end and use Shopify for the back-end.
 
+![Gif of ecommerce store in use](./public/img/nextjs-shopify-store.gif)
+
 ## Live site
 
 The site can be found online at [https://nextjs-headless-shopify-beta.vercel.app/](https://nextjs-headless-shopify-beta.vercel.app/)

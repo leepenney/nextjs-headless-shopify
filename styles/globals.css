@@ -1,0 +1,46 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+.product-card span {
+  position: relative !important;
+  height: 225px !important;
+  width: 225px !important;
+}
+
+.cart-nav-link a:hover svg {
+  fill: rgb(34,240,94);
+}
+
+footer {
+  left: 12.5%;
+}
+
+@media (max-width: 400px) {
+  nav input:checked ~ label ~ ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+}
